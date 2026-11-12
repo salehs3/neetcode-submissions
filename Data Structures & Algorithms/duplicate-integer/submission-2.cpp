@@ -1,0 +1,13 @@
+class Solution {
+public:
+    bool hasDuplicate(vector<int>& nums) {
+       std::set<int> numbers (nums.begin(),nums.end());
+        if (nums.size() != numbers.size()) {
+            return true;
+        }
+        return false;
+        
+    } 
+        
+    
+};
